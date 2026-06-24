@@ -1,0 +1,17 @@
+name: RtpGUI
+version: 1.0
+main: me.rtpgui.RtpGUIPlugin
+api-version: "1.21"
+softdepend: [BetterRTP]
+author: Flynzlol
+Description: rtpGUI supports world names // PAPI.
+
+commands:
+  rtp:
+    description: Opens RTP GUI
+    permission: rtpgui.use
+    usage: /rtp 
+
+permissions:
+  rtpgui.use:
+    default: true

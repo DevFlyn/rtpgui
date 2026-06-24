@@ -1,0 +1,82 @@
+# forked from RtpGUI Config.
+gui:
+  size: 27
+  title: "ʀᴛᴘ"
+  fill-background: false # if true whatever block you wanna fill will be filled
+  background-material: GRAY_STAINED_GLASS_PANE # block name
+
+customworlds:
+
+  customworld1:
+    enabled: true
+    slot: 11
+    world-name: world_minecraft_badlands # world name
+    item-material: RED_SAND
+    item-display-name: "<#D97A2B>Badlands"
+    item-lore:
+      - ""
+      - " <#D97A2B>♦ <#FFF0D9>Click to RTP"
+      - ""
+    command: "betterrtp player %player% world_minecraft_badlands"
+
+  customworld2:
+    enabled: true
+    slot: 12
+    world-name: world_minecraft_plains
+    item-material: GRASS_BLOCK
+    item-display-name: "<#55D96B>Plains"
+    item-lore:
+      - ""
+      - " <#55D96B>♦ <#EFFFF2>Click to RTP"
+      - ""
+    command: "betterrtp player %player% world_minecraft_plains"
+
+  customworld3:
+    enabled: true
+    slot: 13
+    world-name: world_minecraft_desert
+    item-material: SAND
+    item-display-name: "<#E8C25B>Desert"
+    item-lore:
+      - ""
+      - " <#E8C25B>♦ <#FFF8DE>Click to RTP"
+      - ""
+    command: "betterrtp player %player% world_minecraft_desert"
+
+  customworld4:
+    enabled: true
+    slot: 14
+    world-name: world_minecraft_mushroom_fields
+    item-material: MYCELIUM
+    item-display-name: "<#C66BFF>Mushroom"
+    item-lore:
+      - ""
+      - " <#C66BFF>♦ <#F6E8FF>Click to RTP"
+      - ""
+    command: "betterrtp player %player% world_minecraft_mushroom"
+
+  customworld5:
+    enabled: true
+    slot: 15
+    world-name: world_minecraft_snowy_plains
+    item-material: SNOW_BLOCK
+    item-display-name: "<#BEEBFF>Snowy Fields"
+    item-lore:
+      - ""
+      - " <#BEEBFF>♦ <#F3FCFF> Click to RTP"
+      - ""
+    command: "betterrtp player %player% world_minecraft_snowy_Fields"
+
+  customworld6:
+    enabled: true
+    slot: 4
+    world-name: world_minecraft_plains
+    item-material: COMPASS
+    item-display-name: "<#BEEBFF>Random Teleports"
+    item-lore:
+      - ""
+      - " <#BEEBFF>♦ <#F3FCFF> Click to RTP"
+      - ""
+    command: "randomtp %player%"
+
+click-sound: ENTITY_EXPERIENCE_ORB_PICKUP
