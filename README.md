@@ -7,6 +7,7 @@
 <p align="center">
   <strong>A configurable Random Teleport plugin built for Minecraft practice servers.</strong>
 </p>
+
 ---
 ## Features
 - Configurable RTP system
