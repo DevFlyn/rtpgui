@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License">
 </p>
 <p align="center">
-  <strong>A configurable Random Teleport plugin built for Minecraft practice servers.</strong>
+  <strong>A configurable Random Teleport plugin built for Minecraft  servers.</strong>
 </p>
 
 ---
